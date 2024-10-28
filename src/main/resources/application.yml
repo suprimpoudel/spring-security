@@ -3,8 +3,8 @@ spring:
     name: spring-security
   datasource:
     url: jdbc:mysql://localhost:3306/spring_security  #Replace database name
-    username: mfin #Replace mysql username
-    password: mfin #Replace mysql password
+    username: username #Replace mysql username
+    password: password #Replace mysql password
   jpa:
     hibernate:
       ddl-auto: update
@@ -14,5 +14,5 @@ com:
     suprimpoudel:
       util:
         helper:
-          secretKey: 624373281137d26d2c8801b3ff6186def14931795d19bc8d1f3d5a2d82a152206b2f28df4eeacb264fbd6aa597db4bb17ca44bb186e150611e0c6f63c1995df8
-          expirationTime: 600000
+          secretKey: 624373281137d26d2c8801b3ff6186def14931795d19bc8d1f3d5a2d82a152206b2f28df4eeacb264fbd6aa597db4bb17ca44bb186e150611e0c6f63c1995df8 #Replace secret key
+          expirationTime: 600000 #Expiration time in milliseconds
